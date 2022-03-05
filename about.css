@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+ .about{
+     width: 100%;
+     padding: 78px 0px;
+     background-color: royalblue;
+ }
+ .about img{
+     height: auto;
+     width: 420px;
+ }
+ .about.text{
+     width: 550px;
+ }
+ .main{
+     width: 1130px;
+     max-width: 95%;
+     margin: 0 auto;
+     display: flex;
+     align-items:center;
+     justify-content: space-around;
+ }
+ .about-text h1{
+     color:rgb(122, 233, 146);
+     font-size: 80px;
+     text-transform: capitalise;
+     margin-bottom: 30px;
+ }
+ .about-text h5{
+    color:rgb(122, 233, 146);
+    font-size: 30px;
+    text-transform: capitalise;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+

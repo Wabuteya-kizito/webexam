@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.photo-Gallery{
+    margin: auto;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3.5, 1fr);
+    grid-gap: 30px;
+}
+.menu{
+    display: flex;
+    font-size: 40px;
+}

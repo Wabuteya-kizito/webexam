@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapies.com/css?family=Allura|josefin+sans');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #81c644;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+.wrapper{
+    margin-top: 10px;
+}
+
+.wrapper h1{
+    font-family: Arial, Helvetica, sans-serif , cursive;
+    font-size: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+p{
+   font-size: 20px;
+}
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team .team_member{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 200px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+.head{
+    display: flex;
+    padding: 20px;
+    font-size: 40px;
+    color: white;
+
+}
+#link{
+    color: white;
+}
+
+.team .team_member{
+    color: #81c644;
+    font-size: 26px;
+    margin: 50px;
+    width: 500px;
+}
+
+.team_member{
+    color: #81c644;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 0PX;
+  background-color: white;
+  height: 600px;
+  
+}
+
+.team .team_member .team_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+}
+
+.team .team_member .team_img img{
+    width: 100px;
+    height: 10px;
+    padding: 20px;
+}
+#team-member{
+    height: 100px;
+    width: 100PX;
+    border-radius: 50%;
+    border: 0PX;
+    font-family: cursive;
+}
+.KIZITO {
+    padding: 20PX;
+
+}
+#member{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: -23px;
+    top: -20px;
+}
+.menu{
+    background-color: blue;
+}
+#chick{
+    border-radius: 30px;
+    left: 200px;
+}
+.logo{
+    padding: 20px;
+}
